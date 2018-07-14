@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.application'
+
+def androidToolsVersion = '23.1.1'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.sample.kontaktio"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    packagingOptions {
+        exclude 'main/AndroidManifest.xml'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile "com.android.support:appcompat-v7:$androidToolsVersion"
+    compile "com.android.support:design:$androidToolsVersion"
+    compile "com.android.support:recyclerview-v7:$androidToolsVersion"
+
+    compile 'com.wang.avi:library:1.0.5'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.neovisionaries:nv-bluetooth:1.7'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'com.kontakt.sdk.android:kontakt.io-android-sdk:2.1.1'
+}
