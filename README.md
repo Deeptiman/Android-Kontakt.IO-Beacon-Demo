@@ -21,3 +21,9 @@ App says "<b>You are here</b>", if the beacons is in the proximity region
 <img src="/screenshots/you_left.png" width="300"/>
 
 App says "<b>You are Left</b>", if the beacons is out of the proximity region
+
+
+## For more info
+ <a href="https://kontakt.io/"> https://kontakt.io/ </a>
+
+<a href="https://developers.google.com/beacons/eddystone"> https://developers.google.com/beacons/eddystone </a>
