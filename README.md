@@ -27,3 +27,6 @@ App says "<b>You are Left</b>", if the beacons is out of the proximity region
  <a href="https://kontakt.io/"> https://kontakt.io/ </a>
 
 <a href="https://developers.google.com/beacons/eddystone"> https://developers.google.com/beacons/eddystone </a>
+
+### License
+This project is licensed under the [(MIT License)](https://github.com/Deeptiman/Android-Kontakt.IO-Beacon-Demo/blob/master/LICENSE)
