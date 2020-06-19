@@ -1,4 +1,5 @@
 # Android-Kontakt.IO-Beacon-Demo
+<p>     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deeptiman/Android-Kontakt.IO-Beacon-Demo">  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Deeptiman/Android-Kontakt.IO-Beacon-Demo"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Deeptiman/Android-Kontakt.IO-Beacon-Demo"></p>
 
 ## Overview
 
